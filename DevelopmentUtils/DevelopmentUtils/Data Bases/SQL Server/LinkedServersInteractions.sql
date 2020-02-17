@@ -1,0 +1,1 @@
+select * from [ServerName/ServerIP].comdb.dbo.TableName

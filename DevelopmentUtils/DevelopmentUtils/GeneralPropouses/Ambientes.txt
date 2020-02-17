@@ -1,0 +1,11 @@
+﻿Tareas de soporte:
+
+Es fundamental encontrar una forma de emular un ambiente productivo (O calquier otro) con un solo click. 
+Es decir, definir origen (ejemplo PROD) y definir emulación destinto (ejemplo QA). Con BackUp automático si pisa bases o lo que fuere. 
+Que haga una fotografia identica a como se encontraba el producto en el momento del error.
+De esa manera se va a poder apuntar un debug que pueda reproducir el error exacto, incluido los datos.
+Mas que nada este comentario refiere a las bases, 
+como estaba el software en ese momento es cuestion te posicionarse en el branch correspondiente. Aunque deberia verse este punto 
+si por ejemplo desde Bamboo puede resguardarse el artefacto o el ultimo commit, antes de que se levante el ticket. 
+
+De todo esto tambien puede desprenderse el ideal de tener un servicio de gestion de credenciales y ambientes. Como herramienta interna. 

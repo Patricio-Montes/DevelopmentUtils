@@ -1,0 +1,4 @@
+﻿Proyecto similar a log4net, pero que permita loguear el xml que se uso para hacer fallar al servicio. 
+Deberia guardar en alguna nube, y limpiarse cada cierto tiempo por cuestiones de espacio. 
+Mejoraria considerablemente algun error reportado contra algun servicio, si en el log donde se encuentra dicho error,
+se guarda un link de referencia al xml antes guardado. 

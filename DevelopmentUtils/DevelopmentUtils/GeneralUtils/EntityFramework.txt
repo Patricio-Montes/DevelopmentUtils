@@ -1,0 +1,4 @@
+﻿Rollback Migration. 
+
+Package Manager Console:
+Update-Database -TargetMigration:"name_of_migration"

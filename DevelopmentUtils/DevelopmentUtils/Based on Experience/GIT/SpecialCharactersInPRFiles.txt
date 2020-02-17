@@ -1,0 +1,11 @@
+﻿----------Special Characters after Merged---------- 
+
+Problem: Al realizar el PR luego de varios mergers, en la reivisión aparece el carácter especial 
+"´╗┐". Además no se visualizan como es de esperar, las eñes y los acentos. 
+Se debe a una problemática con el encoding que reciben los archivos.
+
+Solution: Mediante "EMEditor" abrir todos los archivos con origen en la carpeta donde se encuentra
+el archivo afectado, y realizar un "Guarde todo con codificación" y en el desplegable elegir la
+codificación aprobada. 
+
+Obs: En este caso se corrigio llevando de UTF8-BOM a UTF-8 simplemente. (O UTF-8 sin firma). 
