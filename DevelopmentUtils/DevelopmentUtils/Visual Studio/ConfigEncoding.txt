@@ -1,0 +1,5 @@
+﻿Escenario: Visual studio insert <EF><BB><EF> at the beginning csproj. 
+Motivo: El IDE lo realiza al guardar el archivo, para determinar cual es el inicio. UTF-8 con BOM(byte order mark)
+Solución: Para unificar los IDEs de todo un equipo: File, "Advanced Save Options" Unicode (UTF-8 with signature).
+
+Alternativos: Si no se encuentra la opcion de menu "Advanced Save Options". Agregar desde Tools->Customize->Commands->File->Add:"Advanced Save Options"
