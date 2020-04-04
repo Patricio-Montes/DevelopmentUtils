@@ -40,7 +40,7 @@ print(@entityBuild);
 
 --Conversión B) db_column = AnyColumnName => anyColumnName
 
------------------------- Query Conversion B ----------------------------
+------------------------ Query Conversion B camelCase ----------------------------
 
 /******** Tipo de conversión: db_column = AnyColumnName => Java Property = anyColumnName ********/
 -- Seguir adelante los puntos 1 y 2. 
