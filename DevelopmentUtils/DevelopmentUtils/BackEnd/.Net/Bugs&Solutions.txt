@@ -1,0 +1,4 @@
+// Bug CSS Styles - Catched. 
+
+Situación: Al modificar un estilo de plantilla css recompilar solución y correr el programa, no se impactan los cambios en los estilos
+Solución: Reiniciar Cache del browser. 
